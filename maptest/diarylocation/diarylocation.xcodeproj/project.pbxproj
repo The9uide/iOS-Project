@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		5D5E96A01C16AE070040E3A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5E969F1C16AE070040E3A2 /* main.m */; };
 		5D5E96A31C16AE070040E3A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5E96A21C16AE070040E3A2 /* AppDelegate.m */; };
-		5D5E96A61C16AE070040E3A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5E96A51C16AE070040E3A2 /* ViewController.m */; };
 		5D5E96A91C16AE070040E3A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5E96A71C16AE070040E3A2 /* Main.storyboard */; };
 		5D5E96AB1C16AE070040E3A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5E96AA1C16AE070040E3A2 /* Assets.xcassets */; };
 		5D5E96AE1C16AE070040E3A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5E96AC1C16AE070040E3A2 /* LaunchScreen.storyboard */; };
+		5D5E96BB1C16BC680040E3A2 /* Diary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5E96B61C16BC680040E3A2 /* Diary.m */; };
+		5D5E96BC1C16BC680040E3A2 /* Diarylocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5E96B81C16BC680040E3A2 /* Diarylocation.m */; };
+		5D5E96BD1C16BC680040E3A2 /* DiaryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5E96BA1C16BC680040E3A2 /* DiaryTableViewCell.m */; };
+		5D5E96C41C16BF860040E3A2 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5E96C31C16BF860040E3A2 /* MapViewController.m */; };
 		D64FE6951C16B2CC009815FD /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64FE6931C16B2CC009815FD /* Bolts.framework */; };
 		D64FE6961C16B2CC009815FD /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64FE6941C16B2CC009815FD /* Parse.framework */; };
 /* End PBXBuildFile section */
@@ -22,12 +25,18 @@
 		5D5E969F1C16AE070040E3A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5D5E96A11C16AE070040E3A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5D5E96A21C16AE070040E3A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5D5E96A41C16AE070040E3A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5D5E96A51C16AE070040E3A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5D5E96A81C16AE070040E3A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D5E96AA1C16AE070040E3A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D5E96AD1C16AE070040E3A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D5E96AF1C16AE070040E3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5E96B51C16BC680040E3A2 /* Diary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Diary.h; sourceTree = "<group>"; };
+		5D5E96B61C16BC680040E3A2 /* Diary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Diary.m; sourceTree = "<group>"; };
+		5D5E96B71C16BC680040E3A2 /* Diarylocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Diarylocation.h; sourceTree = "<group>"; };
+		5D5E96B81C16BC680040E3A2 /* Diarylocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Diarylocation.m; sourceTree = "<group>"; };
+		5D5E96B91C16BC680040E3A2 /* DiaryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryTableViewCell.h; sourceTree = "<group>"; };
+		5D5E96BA1C16BC680040E3A2 /* DiaryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryTableViewCell.m; sourceTree = "<group>"; };
+		5D5E96C21C16BF860040E3A2 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		5D5E96C31C16BF860040E3A2 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		D64FE6931C16B2CC009815FD /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		D64FE6941C16B2CC009815FD /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,10 +74,11 @@
 		5D5E969D1C16AE070040E3A2 /* diarylocation */ = {
 			isa = PBXGroup;
 			children = (
+				5D5E96BE1C16BCD30040E3A2 /* model */,
 				5D5E96A11C16AE070040E3A2 /* AppDelegate.h */,
 				5D5E96A21C16AE070040E3A2 /* AppDelegate.m */,
-				5D5E96A41C16AE070040E3A2 /* ViewController.h */,
-				5D5E96A51C16AE070040E3A2 /* ViewController.m */,
+				5D5E96C21C16BF860040E3A2 /* MapViewController.h */,
+				5D5E96C31C16BF860040E3A2 /* MapViewController.m */,
 				5D5E96A71C16AE070040E3A2 /* Main.storyboard */,
 				5D5E96AA1C16AE070040E3A2 /* Assets.xcassets */,
 				5D5E96AC1C16AE070040E3A2 /* LaunchScreen.storyboard */,
@@ -84,6 +94,19 @@
 				5D5E969F1C16AE070040E3A2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D5E96BE1C16BCD30040E3A2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				5D5E96B51C16BC680040E3A2 /* Diary.h */,
+				5D5E96B61C16BC680040E3A2 /* Diary.m */,
+				5D5E96B71C16BC680040E3A2 /* Diarylocation.h */,
+				5D5E96B81C16BC680040E3A2 /* Diarylocation.m */,
+				5D5E96B91C16BC680040E3A2 /* DiaryTableViewCell.h */,
+				5D5E96BA1C16BC680040E3A2 /* DiaryTableViewCell.m */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 		D64FE6971C16B2E2009815FD /* Frameworks */ = {
@@ -165,9 +188,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D5E96A61C16AE070040E3A2 /* ViewController.m in Sources */,
+				5D5E96BD1C16BC680040E3A2 /* DiaryTableViewCell.m in Sources */,
 				5D5E96A31C16AE070040E3A2 /* AppDelegate.m in Sources */,
 				5D5E96A01C16AE070040E3A2 /* main.m in Sources */,
+				5D5E96C41C16BF860040E3A2 /* MapViewController.m in Sources */,
+				5D5E96BC1C16BC680040E3A2 /* Diarylocation.m in Sources */,
+				5D5E96BB1C16BC680040E3A2 /* Diary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
