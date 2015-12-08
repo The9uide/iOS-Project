@@ -55,7 +55,7 @@
 
 -(void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation {
     [self.mapView setCenterCoordinate:userLocation.coordinate animated:YES];
-    //NSLog(@"USER!!");
+    NSLog(@"USER!!");
 }
 
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
